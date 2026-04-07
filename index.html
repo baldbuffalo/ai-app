@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>My AI App</h1>
+<input type="text" id="userInput" placeholder="Ask something...">
+<button onclick="openSite()">Open</button>
+
+<script>
+let secondWindow;
+
+function openSite() {
+  secondWindow = window.open('https://claude.ai', 'secondWindow', 'width=800,height=600');
+}
+</script>
+</body>
+</html>
