@@ -1,0 +1,15 @@
+name: PawsomeAI
+options:
+  bundleIdPrefix: com.pawsome
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  PawsomeAI:
+    type: application
+    platform: iOS
+    sources: [PawsomeAI]
+    info:
+      path: PawsomeAI/Info.plist
+      properties:
+        UILaunchScreen: {}
+        CFBundleDisplayName: Pawsome AI
