@@ -10,6 +10,10 @@ let secondWindow;
 
 function openSite() {
   secondWindow = window.open('https://claude.ai', 'secondWindow', 'width=800,height=600');
+  if (secondWindow) {
+    secondWindow.blur();
+    window.focus();
+  }
 }
 </script>
 </body>
