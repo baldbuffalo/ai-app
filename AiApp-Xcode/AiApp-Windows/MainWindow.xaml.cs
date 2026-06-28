@@ -1,7 +1,7 @@
 using System.Text.Json;
 using System.Windows;
 
-namespace PawsomeAI.Windows
+namespace AiApp.Windows
 {
     public partial class MainWindow : Window
     {

@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace PawsomeAI.Windows
+namespace AiApp.Windows
 {
     public partial class App : Application { }
 }

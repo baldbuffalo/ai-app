@@ -1,0 +1,15 @@
+name: AiApp
+options:
+  bundleIdPrefix: com.aiapp
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  AiApp:
+    type: application
+    platform: iOS
+    sources: [AiApp]
+    info:
+      path: AiApp/Info.plist
+      properties:
+        UILaunchScreen: {}
+        CFBundleDisplayName: AiApp
